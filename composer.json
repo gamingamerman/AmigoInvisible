@@ -1,0 +1,26 @@
+{
+    "name": "dsw/amigoinvisible",
+    "description": "Gestor de Amigo Inbisible",
+    "type": "proyect",
+    "license": "GNU/GPL",
+    "autoload": {
+        "psr-4": {
+            "Dsw\\Amigoinvisible\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonas"
+        }
+    ],
+    "require": {
+        "philo/laravel-blade": "^3.1",
+        "illuminate/database": "^5.5",
+        "altorouter/altorouter": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
