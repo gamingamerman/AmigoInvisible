@@ -17,6 +17,8 @@ $router = new AltoRouter();
 $router -> map('GET', '/', 'home');
 $router -> map('GET', '/user', 'userController#index');
 $router -> map('GET', '/user/[i:id]', 'userController#show');
+// $router -> map('GET', '/user/create', 'userController#create');
+$router -> map('GET', '/user/create', 'create');
 
 
 
